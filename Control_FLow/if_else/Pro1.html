@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkTemperature(tempCelsius) {
+  if (tempCelsius < 0) {
+    console.log("Freezing.");
+  } else if (tempCelsius <= 15) {
+    console.log("Cold.");
+  } else if (tempCelsius <= 25) {
+    console.log("Comfortable.");
+  } else {
+    console.log("Hot.");
+  }
+}
+checkTemperature(-5);  // “Freezing.”
+checkTemperature(10);  // “Cold.”
+checkTemperature(20);  // “Comfortable.”
+checkTemperature(30);  
+    </script>
+</body>
+</html>
