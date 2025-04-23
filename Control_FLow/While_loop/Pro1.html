@@ -1,27 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>While</title>
 </head>
 <body>
     <script>
-        const storedUsername = "admin";
-const storedPassword = "letmein";
-
-function login(inputUsername, inputPassword) {
-  if (inputUsername === storedUsername && inputPassword === storedPassword) {
-    console.log("Access granted");
-  } else {
-    console.log("Access denied");
-  }
-}
-
-// Example usage:
-login("admin", "letmein");    // “Access granted”
-login("admin", "wrongpass");  // “Access denied”
-
+        
+        function Loop(i){
+            let j=0;
+            while(j<=i)
+            {
+                document.write(j+'<br />');
+                j++;
+            }
+        }
+        let i=prompt("Enter the Value");
+        Loop(i);
     </script>
 </body>
 </html>

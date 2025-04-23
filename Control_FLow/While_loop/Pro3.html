@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i,j,k,s;
+        i=parseInt(prompt("Enter the staring number:"));
+        j=parseInt(prompt("Enter the entering number:"));
+        k=parseInt(prompt("WHich Table u want :"));
+        Loop(i,j,k);
+        function Loop(i,j,k)
+        {
+            while(i<=j)
+            {
+                s=i*k
+
+                document.write(i +"*"+ k +"="+ s +"<br/>");
+                i++;
+            }
+        }
+
+    </script>
+</body>
+</html>

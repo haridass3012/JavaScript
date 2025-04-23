@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function Loop(i){
+            var s=0,j=prompt("Enter j");
+            i=parseInt(i);
+            console.log(i,j);
+            while(i<=j)
+            {
+                s+=i;
+                console.log(s);
+                i++;
+                console.log(i);
+            }
+            document.write("Total value : "+s);
+        }
+        let i=prompt("Enter i");
+        Loop(i);
+    </script>
+</body>
+</html>

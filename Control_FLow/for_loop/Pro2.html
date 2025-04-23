@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let i,j;
+        i=parseInt(prompt("Enter the i"));
+        j=parseInt(prompt("Enter the j"));
+        Loop(i,j);
+        function Loop(i,j){
+            for(i=i;i<=j;i++)
+            {
+                let a,b;
+                for(a=i;a<j;a++)
+                {
+                    document.write("&nbsp");
+                }
+                for(b=1;b<=i;b++)
+                {
+                    document.write(" "+b);
+                }
+                document.write("<br/>");
+            }
+        }
+    </script>
+</body>
+</html>
